@@ -6,8 +6,8 @@ import com.um.services.impl.UserServiceImpl;
 
 public class UserContronl {
 
-    public User saveUser(User user){
-        UserService userService=new UserServiceImpl();
+    public User saveUser(User user) {
+        UserService userService = new UserServiceImpl();
         return userService.saveUser(user);
     }
 }
