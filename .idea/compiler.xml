@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="um-control" />
         <module name="um-pojo" />
         <module name="um-services" />
       </profile>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_STRING" value="-encoding utf-8" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="um" options="" />
+      <module name="um-control" options="" />
       <module name="um-pojo" options="" />
       <module name="um-services" options="" />
     </option>

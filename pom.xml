@@ -11,6 +11,7 @@
     <modules>
         <module>um-pojo</module>
         <module>um-services</module>
+        <module>um-control</module>
     </modules>
 
 
